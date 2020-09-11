@@ -237,7 +237,7 @@ if(y<0){
 
 printf("\n Solution: %s, ", firstWord);
 
-while(y>0){
+while(y>=0){
 	printf("%s, ", wordList[y]);
 	y = predecessor[y];
 }
